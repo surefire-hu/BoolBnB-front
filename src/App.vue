@@ -32,7 +32,7 @@ export default {
     <AppHeader />
     
     <main>
-      <button @click="incrementCount()">
+      <button @click="incrementCount()" class=" border-dashed border-black border-2">
         {{ count }}
       </button>
     </main>
